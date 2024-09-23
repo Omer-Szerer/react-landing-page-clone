@@ -1,4 +1,5 @@
-import styles from './App.module.css';
+// import styles from './App.module.css';
+import './index.module.css';
 
 export default function App() {
   return (
