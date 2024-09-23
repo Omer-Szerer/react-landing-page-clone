@@ -1,23 +1,71 @@
-import './App.css';
-import logo from './logo.svg';
+import styles from './App.module.css';
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="section-1">
+        <div className="header">
+          <div className="header-left">
+            <a href="https://inflatable.wannathis.one/">
+              <div className="text-INFLATABLE">Inflatable</div>
+            </a>
+            <div className="by">by</div>
+            <a
+              href="https://wannathis.one/"
+              aria-label="wannathis"
+              className="link w-inline-block"
+            >
+              <img
+                src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/ic-logo.svg"
+                loading="eager"
+                alt=""
+                className="ic-logo"
+              />
+            </a>
+          </div>
+          <a href="#download" className="btn-header w-inline-block">
+            <div className="btn-text desktop">
+              Download for Figma and Blender
+            </div>
+            <div className="btn-text mob">Download</div>
+          </a>
+        </div>
+        <div className="hero">
+          <div className="hero-img">
+            <img
+              className="hero-1"
+              src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/hero-1.png"
+              alt="yellow inflatable abstract 3d illustration"
+            />
+            <img
+              className="hero-2"
+              src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/hero-3.png"
+              alt="silver inflatable abstract 3d illustration"
+            />
+          </div>
+          <div className="hero-text">
+            <div className="hero-text-wrapper">
+              <div className="caption">Stay creative with</div>
+              <h1 className="h-1">Inflatable abstract 3d illustrations</h1>
+            </div>
+          </div>
+          <div className="hero-img-2">
+            <img
+              className="hero-3"
+              src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/hero-2.png"
+              alt="purple inflatable abstract 3d illustration"
+            />
+            <img
+              className="hero-4"
+              src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/hero-4.png"
+              alt="bubbles inflatable abstract 3d illustration"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="section-2">
+        <div></div>
+      </div>
+    </>
   );
 }
