@@ -64,7 +64,7 @@ export default function App() {
             />
           </div>
         </div>
-        <div className="hero-description">
+        {/* <div className="hero-description">
           <div className="hero-description-wrapper">
             <div className="hero-description-left">
               <h4>Playful & captivating</h4>
@@ -82,8 +82,7 @@ export default function App() {
               </p>
             </div>
           </div>
-        </div>
-        ``
+        </div> */}
       </div>
       <div className="section-2">
         <div />

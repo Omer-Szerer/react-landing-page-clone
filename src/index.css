@@ -108,3 +108,38 @@ h1 {
   line-height: 7.875rem;
   color: black;
 }
+
+.hero-img {
+  position: relative;
+}
+
+.hero-1-left {
+  width: 33vw;
+  margin-left: -11vw;
+  transform: rotate(0deg);
+  position: absolute;
+  top: -30px;
+}
+
+.hero-2-right {
+  width: 33vw;
+  margin-right: 40vw;
+  transform: rotate(25deg);
+  position: absolute;
+  top: 200px;
+  right: -800px;
+}
+
+.hero-3-center {
+  transform: rotate(0deg);
+  position: absolute;
+  top: 800px;
+  right: 200px;
+}
+
+.hero-4-center {
+  transform: rotate(0deg);
+  position: absolute;
+  top: 800px;
+  right: 200px;
+}
