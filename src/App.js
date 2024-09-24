@@ -1,4 +1,4 @@
-import styles from './index.css';
+import './index.css';
 
 export default function App() {
   return (
@@ -86,7 +86,7 @@ export default function App() {
         ``
       </div>
       <div className="section-2">
-        <div></div>
+        <div />
       </div>
     </>
   );
