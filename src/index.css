@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: 'ObjectSans-Regular';
   src:
@@ -37,7 +41,7 @@
 .by {
   font-family: 'ObjectSans-Regular', sans-serif;
   font-weight: 100;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   color: black;
   line-height: 20px;
 }
@@ -98,15 +102,17 @@
 .caption {
   font-size: 1.25rem;
   color: black;
+  font-weight: 200;
 }
 
 h1 {
-  font-size: 8.125rem;
+  font-size: 7.5rem;
   font-family: 'ObjectSans-Regular', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
-  line-height: 7.875rem;
+  font-weight: 500;
+  line-height: 7.5rem;
   color: black;
+  letter-spacing: -2.5px;
 }
 
 .hero-img {
@@ -116,30 +122,32 @@ h1 {
 .hero-1-left {
   width: 33vw;
   margin-left: -11vw;
-  transform: rotate(0deg);
+  transform: rotate(0deg) translateX(-5px) translateY(5px);
   position: absolute;
   top: -30px;
+  left: 0;
 }
 
 .hero-2-right {
-  width: 33vw;
-  margin-right: 40vw;
-  transform: rotate(25deg);
+  width: 37vw;
+  transform: rotate(25deg) translateX(30px) translateY(-20px);
   position: absolute;
-  top: 200px;
-  right: -800px;
+  top: 170px;
+  right: 0;
 }
 
 .hero-3-center {
-  transform: rotate(0deg);
+  width: 65vw;
+  transform: rotate(0deg) translateX(-20px) translateY(10px);
   position: absolute;
-  top: 800px;
-  right: 200px;
+  top: 700px;
+  right: 350px;
 }
 
 .hero-4-center {
-  transform: rotate(0deg);
+  width: 80vw;
+  transform: rotate(0deg) translateX(50px) translateY(10px);
   position: absolute;
-  top: 800px;
-  right: 200px;
+  top: 820px;
+  right: 230px;
 }
