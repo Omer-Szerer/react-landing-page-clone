@@ -1,5 +1,4 @@
-// import styles from './App.module.css';
-import './index.module.css';
+import styles from './index.css';
 
 export default function App() {
   return (
@@ -18,17 +17,16 @@ export default function App() {
             >
               <img
                 src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/ic-logo.svg"
-                loading="eager"
-                alt=""
+                alt="wannathis logo"
                 className="wannathis-logo"
               />
             </a>
           </div>
           <a href="#download" className="btn-header">
             <div className="btn-text desktop">
-              Download for Figma and Blender
+              Download, for Figma and Blender
             </div>
-            <div className="btn-text mobile">Download</div>
+            {/* <div className="btn-text mobile">Download</div> */}
           </a>
         </div>
         <div className="hero">
@@ -47,7 +45,10 @@ export default function App() {
           <div className="hero-text">
             <div className="hero-text-wrapper">
               <div className="caption">Stay creative with</div>
-              <h1 className="h-1">Inflatable abstract 3d illustrations</h1>
+              <h1 className="h-1">
+                Inflatable <br /> abstract 3d <br />
+                illustrations
+              </h1>
             </div>
           </div>
           <div className="hero-img-2">
