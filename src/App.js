@@ -26,7 +26,7 @@ export default function App() {
             <div className="btn-text desktop">
               Download, for Figma and Blender
             </div>
-            {/* <div className="btn-text mobile">Download</div> */}
+            <div className="btn-text mobile">Download</div>
           </a>
         </div>
         <div className="hero">
@@ -67,7 +67,9 @@ export default function App() {
         <div className="hero-description">
           <div className="hero-description-wrapper">
             <div className="hero-description-left">
-              <h4>Playful & captivating</h4>
+              <h4>
+                Playful & <br /> captivating
+              </h4>
             </div>
             <div className="hero-description-center">
               <img
@@ -77,8 +79,9 @@ export default function App() {
             </div>
             <div className="hero-description-right">
               <p>
-                Add sense of playfulness into your projects that's perfect for
-                capturing attention and creating memorable experiences.
+                Add sense of playfulness into your projects <br /> that's
+                perfect for capturing attention and <br /> creating memorable
+                experiences.
               </p>
             </div>
           </div>

@@ -19,13 +19,17 @@ body {
 
 /* Header */
 
+.section-1 {
+  position: relative;
+}
+
 .header {
   z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 20px 3vw;
+  padding: 1.25rem 3vw;
   position: relative;
 }
 
@@ -35,7 +39,7 @@ body {
   font-weight: 600;
   font-size: 1.25rem;
   color: black;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .by {
@@ -76,6 +80,24 @@ body {
   color: white;
 }
 
+.btn-text.desktop {
+  display: block;
+}
+
+.btn-text.mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .btn-text.desktop {
+    display: none;
+  }
+
+  .btn-text.mobile {
+    display: block;
+  }
+}
+
 /* Hero */
 
 .hero-text {
@@ -105,12 +127,12 @@ body {
   font-weight: 200;
 }
 
-h1 {
-  font-size: 7.5rem;
+.hero-text-wrapper h1 {
+  font-size: clamp(4rem, 6.8vw, 8rem);
   font-family: 'ObjectSans-Regular', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  line-height: 7.5rem;
+  line-height: clamp(4rem, 6.5vw, 9rem);
   color: black;
   letter-spacing: -2.5px;
 }
@@ -142,6 +164,7 @@ h1 {
   position: absolute;
   top: 700px;
   right: 350px;
+  z-index: 1;
 }
 
 .hero-4-center {
@@ -150,4 +173,64 @@ h1 {
   position: absolute;
   top: 820px;
   right: 230px;
+  z-index: 1;
+}
+
+/* Hero Description */
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-top: 170vh;
+  margin-bottom: 140px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #333;
+  position: relative;
+  z-index: 10;
+}
+
+.hero-description-wrapper {
+  max-width: 1400px;
+  border: 1px solid #000;
+  background-color: white;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 3.5vw 1.5vw 4vw;
+  display: flex;
+}
+
+h4 {
+  color: #000;
+  text-align: left;
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  font-family: 'ObjectSans-Regular', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  padding-right: 50px;
+}
+
+.hero-description-center img {
+  width: 100px;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.hero-description-right {
+  color: #000;
+  font-family: 'ObjectSans-Regular', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 30vw;
+  padding-left: 60px;
 }
