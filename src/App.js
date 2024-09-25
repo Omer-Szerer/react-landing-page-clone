@@ -88,6 +88,17 @@ export default function App() {
         </div>
       </div>
       <div className="section-2">
+        <div className="orange-title">
+          <h2 className="h-2">
+            Grab <br /> attention <br /> with realistic <br />
+            materials and <br /> Textures{' '}
+          </h2>
+        </div>
+        <img
+          src="https://d2pas86kykpvmq.cloudfront.net/landings/inflatable/play.png"
+          alt="inflatable abstract 3d illustration"
+          className="section-2-image"
+        />
         <div />
       </div>
     </>

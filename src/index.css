@@ -17,6 +17,8 @@ body {
     url(./fonts/ObjectSans-Regular.otf) format('otf');
 }
 
+/* Section 1 */
+
 /* Header */
 
 .section-1 {
@@ -160,7 +162,7 @@ body {
 
 .hero-3-center {
   width: 65vw;
-  transform: rotate(0deg) translateX(-20px) translateY(10px);
+  transform: translateX(-20px) translateY(10px);
   position: absolute;
   top: 700px;
   right: 350px;
@@ -233,4 +235,37 @@ h4 {
   line-height: 22px;
   width: 30vw;
   padding-left: 60px;
+}
+
+/* Section 2 */
+
+.section-2 {
+  width: 100vw;
+  background-image: linear-gradient(#7446b8, #a78dff);
+  flex-direction: column;
+  align-items: center;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  display: flex;
+  overflow: hidden;
+}
+
+.h-2 {
+  color: #ffd960;
+  text-align: center;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-family: 'ObjectSans-Regular', sans-serif;
+  font-size: clamp(4rem, 7vw, 8rem);
+  /* max-width: 9ch; */
+  font-weight: 400;
+  z-index: 0;
+}
+
+.section-2-image {
+  max-width: clamp(60vw, 7vw, 7vw);
+  z-index: 5;
+  transform: translateX(-10px) translateY(-55px);
 }
