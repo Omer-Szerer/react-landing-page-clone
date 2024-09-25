@@ -10,6 +10,11 @@ body {
   overflow-x: hidden;
 }
 
+::selection {
+  color: black;
+  background: #ffdfe6;
+}
+
 @font-face {
   font-family: 'ObjectSans-Regular';
   src:
